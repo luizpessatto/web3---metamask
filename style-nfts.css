@@ -1,0 +1,20 @@
+.img-nft{
+    display: inline;
+    align-items: center;
+    text-align: center;
+    margin: 15px;
+    max-width: 300px;
+    max-height: 300px;
+}
+#tabelaT{
+    width: 100%;
+}
+
+.hashT, .blockNT, .toaddressT, .timeT, .valueT, .gasT{
+    white-space: nowrap; 
+    max-width: 200px;
+    max-height: 75px; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    border: 1px solid #000000;
+}
